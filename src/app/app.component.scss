@@ -1,0 +1,157 @@
+.banner-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.banner-container img {
+  display: block;
+  width: 100vw;
+  height: 60vh;
+  object-fit: cover;
+}
+
+.text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  transform: translateY(-50%);
+  color: white;
+  text-align: left;
+  padding: 0;
+}
+
+.titulo-concord {
+  font-size: 100px;
+  font-weight: bold;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7);
+}
+
+.subtitulo-concord {
+  font-size: 34px;
+  margin-top: -50px;
+  margin-left: 22px;
+  font-weight: lighter;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+.welcome-container {
+  padding: 40px 20px;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.welcome-title {
+  font-size: 36px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.welcome-text {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #666;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.map-container {
+  padding: 20px;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.map-container iframe {
+  max-width: 100%;
+  border: 0;
+}
+
+.comentarios {
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+  border-radius: 10px;
+  background-color: transparent;
+}
+
+.comentarios-h1 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.comentarios-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.comentarios-form-row {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.comentarios-form-textarea {
+  flex: 2;
+  height: 250px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+  resize: vertical;
+}
+
+.comentarios-form-group {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.comentarios-form-label {
+  font-size: 24px;
+  color: #666;
+}
+
+.comentarios-form-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.comentarios-form-checkbox {
+  margin-right: 10px;
+}
+
+.comentarios-form-terms {
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+
+.comentarios-form-submit {
+  display: flex;
+  justify-content: center;
+}
+
+.comentarios-form-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 15px;
+  width: 800px;
+  border-radius: 25px;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.comentarios-form-button:hover {
+  background-color: #0056b3;
+}
